@@ -2,7 +2,7 @@
 load('Detector2.mat');
 load('Calibration/stereoParams.mat');
 % load images
-IL = imread("project_data_23rd_April/left/tr_l_0.jpg");
+IL = imread("left/tr_l_0.jpg");
 IR = imread("project_data_23rd_April/right/tr_r_0.jpg");
 % Estimate position
 b = EstimateStereoGeometry(IL,IR,stereoParams,detector);
