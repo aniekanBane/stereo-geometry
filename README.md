@@ -7,6 +7,7 @@
 ## Matlab
 - EstimateStereoGeomerty.m is the function file that performes the pose estimation.
 - EstimationScript.m is the script to test the function.
+- rmse.m is the script used to evaluate the performance of the algorithm
 ## Python
 To be included
 #
