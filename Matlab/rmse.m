@@ -1,10 +1,15 @@
 % Load data
-real_z = trainingdata.pos_z;
-real_y = trainingdata.pos_y;
-real_x = trainingdata.pos_x;
-est_z = Positionestimation.Estimated_z;
-est_y = Positionestimation.Estimated_y;
-est_x = Positionestimation.Estimated_x;
+dir1 = fullfile("../training_data.csv");
+Actual = read(tabularTextDatastore(dir1));
+dir2 = fullfile("../Position_estimation.csv");
+Estimated = read(tabularTextDatastore(dir2));
+% Extract positions
+real_z = Actual.pos_z;
+real_y = Actual.pos_y;
+real_x = Actual.pos_x;
+est_z = Estimated.Estimated_z;
+est_y = Estimated.Estimated_y;
+est_x = Estimated.Estimated_x;
 % plot 
 figure
 plot(real_z)
