@@ -4,11 +4,9 @@
 - left and right directories contain the images from the left and right cameras to be used for position estimation.
 - Position_estimation.csv contains the estimated values in the x, y and z axis.
 - training_data.csv is the table containing the actual parameters from the simulation environment.
-# schema
 ## Matlab
-EstimateStereoGeomerty.m is the function file.
-EstimationScript.m is the script to test the function.
-
+- EstimateStereoGeomerty.m is the function file that performes the pose estimation.
+- EstimationScript.m is the script to test the function.
 ## Python
 To be included
 #
