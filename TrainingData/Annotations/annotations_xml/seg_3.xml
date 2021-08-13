@@ -1,0 +1,27 @@
+<annotation>
+  <folder>seg</folder>
+  <filename>seg_3.jpg</filename>
+  <source>
+    <database>Unknown</database>
+    <annotation>Unknown</annotation>
+    <image>Unknown</image>
+  </source>
+  <size>
+    <width>2048</width>
+    <height>2048</height>
+    <depth></depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cube</name>
+    <truncated>0</truncated>
+    <occluded>0</occluded>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1226.27</xmin>
+      <ymin>1014.72</ymin>
+      <xmax>1496.06</xmax>
+      <ymax>1367.3</ymax>
+    </bndbox>
+  </object>
+</annotation>
