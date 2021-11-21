@@ -1,4 +1,4 @@
 .ipynb_checkpoints
 .DS_store
-.asv
+*.asv
 build
